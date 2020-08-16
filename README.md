@@ -26,4 +26,4 @@ cards alphabetically by name or occupation.
 ## Deployed
 
 - Check out the deployed app:
-    - 
+    - https://peaceful-fjord-70983.herokuapp.com/

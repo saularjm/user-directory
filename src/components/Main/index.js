@@ -4,24 +4,29 @@ import Card from "../Card";
 import "./style.css";
 
 class Main extends Component {
+    // Set state to array from friends.json
     state = {
         friends
     }
 
+    // Function to filter cards by gender
     filterFriends = gender => {
         const friends = this.state.friends.filter(friend => friend.gender !== gender);
         this.setState({friends});
     }
 
+    // Function to reset cards to original
     resetFriends = () => {
         this.setState({friends});
     }
 
+    // Function to sort cards alphabetically by name
     sortName = () => {
         const friends = this.state.friends.sort((a, b) => a.name.localeCompare(b.name));
         this.setState({friends});
     }
 
+    // Function to sort cards alphabetically by occupation
     sortOcc = () => {
         const friends = this.state.friends.sort((a, b) => a.occupation.localeCompare(b.occupation));
         this.setState({friends});
