@@ -15,6 +15,9 @@ function Card(props) {
           <li>
             <strong>Occupation:</strong> {props.occupation}
           </li>
+          <li>
+            <strong>Gender:</strong> {props.gender}
+          </li>
         </ul>
       </div>
     </div>

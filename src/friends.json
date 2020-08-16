@@ -3,60 +3,70 @@
       "id": 1,
       "name": "Chandler Bing",
       "image": "https://www.pinkvilla.com/files/styles/large/public/a4a47d837726daa86ece52c8dc5b812a_0.jpg?itok=C3UNsQf4",
-      "occupation": "Transpondster"
+      "occupation": "Transpondster",
+      "gender": "Male"
     },
     {
       "id": 2,
       "name": "Monica Gellar",
       "image": "https://cdn.cliqueinc.com/posts/286494/best-friends-outfits-286494-1585661261042-image.700x0c.jpg",
-      "occupation": "Chef"
+      "occupation": "Chef",
+      "gender": "Female"
     },
     {
       "id": 3,
       "name": "Ross Gellar",
       "image": "https://i1.wp.com/www.ourmovielife.com/wp-content/uploads/2020/03/unagi.jpg?resize=800%2C500&ssl=1",
-      "occupation": "Paleontologist"
+      "occupation": "Paleontologist",
+      "gender": "Male"
     },
     {
       "id": 4,
       "name": "Rachel Green",
       "image": "https://www.pinkvilla.com/files/rachel_green.jpg",
-      "occupation": "Fashion Buyer"
+      "occupation": "Fashion Buyer",
+      "gender": "Female"
     },
     {
       "id": 5,
       "name": "Joey Tribbiani",
       "image": "https://www.oneepicplace.com/wp-content/uploads/2019/04/JOEY-SUP.png",
-      "occupation": "Actor"
+      "occupation": "Actor",
+      "gender": "Male"
     },
     {
       "id": 6,
       "name": "Phoebe Buffay",
       "image": "https://img.resized.co/image_ie/eyJkYXRhIjoie1widXJsXCI6XCJodHRwOlxcXC9cXFwvczMtZXUtd2VzdC0xLmFtYXpvbmF3cy5jb21cXFwvc3RvcmFnZS5wdWJsaXNoZXJwbHVzLmllXFxcL21lZGlhLmltYWdlLmllXFxcL3VwbG9hZHNcXFwvMjAxOVxcXC8wOVxcXC8yNDE2MTQzNlxcXC9QaG9lYmVfQnVmZmF5LnBuZ1wiLFwid2lkdGhcIjo5OTAsXCJoZWlnaHRcIjo1MjksXCJkZWZhdWx0XCI6XCJodHRwczpcXFwvXFxcL3d3dy5pbWFnZS5pZVxcXC9pbWFnZXNcXFwvbm8taW1hZ2UucG5nP3Y9MlwifSIsImhhc2giOiIxYzQ5YWFjMDE4YjAyOGVmNGQ3YTdkODkxNDQwMzYxNTk1Y2M2YzE2In0=/phoebe-buffay.png",
-      "occupation": "Masseuse"
+      "occupation": "Masseuse",
+      "gender": "Female"
     },
     {
       "id": 7,
       "name": "Mike Hannigan",
       "image": "https://pkimgcdn.peekyou.com/0447dfc3138599dd9296808eeb7fdd13.jpeg",
-      "occupation": "Lawyer"
+      "occupation": "Lawyer",
+      "gender": "Male"
     },
     {
       "id": 8,
       "name": "Gunther",
       "image": "https://vignette.wikia.nocookie.net/friends/images/3/3d/Gunther.png/revision/latest/top-crop/width/360/height/360?cb=20160612222854",
-      "occupation": "Waiter"
+      "occupation": "Waiter",
+      "gender": "Male"
     },
     {
       "id": 9,
       "name": "Janice",
       "image": "https://metro.co.uk/wp-content/uploads/2015/09/ad_182344509.jpg?quality=90&strip=all",
-      "occupation": "Housewife"
+      "occupation": "Housewife",
+      "gender": "Female"
     },
     {
       "id": 10,
       "name": "Ursula Buffay",
       "image": "https://vignette.wikia.nocookie.net/friends/images/a/aa/Ursula_Pamela_Buffay.png/revision/latest?cb=20171123171202",
-      "occupation": "Waitress"
+      "occupation": "Waitress",
+      "gender": "Female"
     }
 ]

@@ -8,11 +8,21 @@ class Main extends Component {
         friends
     }
 
-    
+    filterFriends = gender => {
+        const friends = this.state.friends.filter(friend => friend.gender !== gender);
+        this.setState({ friends });
+    }
+
+    resetFriends = () => {
+        this.setState({friends});
+    }
 
     render() {
         return (
             <div>
+                <button onClick={() => this.filterFriends("Female")}>Show men</button>
+                <button onClick={() => this.filterFriends("Male")}>Show women</button>
+                <button onClick={() => this.resetFriends()}>Show all</button>
                 {this.state.friends.map(friend => (
                 <Card
                     id={friend.id}
@@ -20,7 +30,7 @@ class Main extends Component {
                     name={friend.name}
                     image={friend.image}
                     occupation={friend.occupation}
-                    location={friend.location}
+                    gender={friend.gender}
                 />
                 ))}
             </div>
